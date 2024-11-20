@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title>Mystery in Monochrome</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "engine/": "../../../engine/",
+          "dat": "../../../lib/dat.js",
+          "glm": "../../../lib/glm.js"
+        }
+      }
+    </script>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="../../../engine/style.css" />
+  </head>
+  <body>
+    <div class="fullscreen no-touch pixelated">
+      <canvas></canvas>
+      <div id="pickup-text" class="text-on-screen">Press P to pick up</div>
+      <div id="lift-text" class="text-on-screen">Press ↑ to go up or ↓ to go down</div>
+
+      <div class="hotbar-container">
+        <div class="hotbar">
+          <!-- <div class="hotbar-item" id="hotbar-item-0"><img src="Box.003.jpeg"></div> -->
+        </div>
+      </div>
+      
+      <div id="wrong-item" class="text-on-screen">Wrong item -1s</div>
+      <div id="correct-item" class="text-on-screen">
+        Move on, you are doing great
+      </div>
+      <div id="game-over">
+        <div id="background-over"></div>
+        <div id="game-over-screen">
+        <h1 id="game-over-h1">Challenge Over</h1>
+        <p id="game-over-p"></p>
+        <button id="refresh-button1">Let's try once more</button>
+        </div>
+      </div>
+      <div id="game-win">
+        <div id="background-win"></div>
+        <div id="game-win-screen">
+          <h1 id="game-win-h1">Mission Complete!</h1>
+          <p id="game-win-p">You've proven yourself unstoppable! What's next? </p>
+          <button id="refresh-button2">Next challenge</button>
+        </div>
+      </div>
+      
+      <div id="game-intro">
+        <div id="background"></div> <!-- New sheer background div -->
+        <div id="game-intro-screen">
+          <h1 id="game-intro-h1">Mystery in Monochrome</h1>
+          <p id="game-intro-p">The fate of the crew depends on you.<br>Recover the lost objects before the timer hits zero!</p>
+         <button id="start-button">Let's start the search!</button>
+        </div>
+      </div>
+      <audio id="ticking-music" src="ticking-clock2.mp3" autoplay loop></audio>  
+      <audio id="background-music" src="background-music.mp3" autoplay loop></audio>  
+      <audio id="correct-music" src="corrct-item2.mp3" autoplay></audio>  
+      <audio id="wrong-music" src="wrong-item.mp3" autoplay></audio>
+      <div id="circle-timer-container">
+        <div id="timer" class="text-on-screen">30.0s</div>
+        <svg>
+          <circle cx="65" cy="65" r="60" id="timer-circle"></circle>
+        </svg>
+      </div>
+
+    </div>
+  </body>
+</html>
