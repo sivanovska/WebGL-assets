@@ -8699,7 +8699,7 @@
 		},
 		{
 			"sampler":0,
-			"source":14
+			"source":50
 		},
 		{
 			"sampler":0,
@@ -8707,7 +8707,7 @@
 		},
 		{
 			"sampler":0,
-			"source":14
+			"source":50
 		},
 		{
 			"sampler":0,
@@ -8715,15 +8715,11 @@
 		},
 		{
 			"sampler":0,
-			"source":14
+			"source":50
 		},
 		{
 			"sampler":0,
 			"source":49
-		},
-		{
-			"sampler":0,
-			"source":14
 		},
 		{
 			"sampler":0,
@@ -8732,6 +8728,10 @@
 		{
 			"sampler":0,
 			"source":51
+		},
+		{
+			"sampler":0,
+			"source":52
 		},
 		{
 			"sampler":0,
@@ -8747,63 +8747,59 @@
 		},
 		{
 			"sampler":0,
-			"source":14
-		},
-		{
-			"sampler":0,
 			"source":50
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
-			"source":50
+			"source":53
 		},
 		{
 			"sampler":0,
-			"source":52
+			"source":51
 		},
 		{
 			"sampler":0,
@@ -8823,6 +8819,10 @@
 		},
 		{
 			"sampler":0,
+			"source":57
+		},
+		{
+			"sampler":0,
 			"source":20
 		},
 		{
@@ -8831,11 +8831,7 @@
 		},
 		{
 			"sampler":0,
-			"source":14
-		},
-		{
-			"sampler":0,
-			"source":57
+			"source":50
 		},
 		{
 			"sampler":0,
@@ -8855,15 +8851,15 @@
 		},
 		{
 			"sampler":0,
+			"source":62
+		},
+		{
+			"sampler":0,
 			"source":19
 		},
 		{
 			"sampler":0,
 			"source":20
-		},
-		{
-			"sampler":0,
-			"source":62
 		},
 		{
 			"sampler":0,
@@ -9075,23 +9071,23 @@
 		},
 		{
 			"sampler":0,
-			"source":114
+			"source":115
 		},
 		{
 			"sampler":0,
-			"source":114
+			"source":115
 		},
 		{
 			"sampler":0,
-			"source":114
+			"source":115
 		},
 		{
 			"sampler":0,
-			"source":114
+			"source":115
 		},
 		{
 			"sampler":0,
-			"source":114
+			"source":115
 		},
 		{
 			"sampler":0,
@@ -9104,6 +9100,10 @@
 		{
 			"sampler":0,
 			"source":117
+		},
+		{
+			"sampler":0,
+			"source":118
 		}
 	],
 	"images":[
@@ -9179,8 +9179,8 @@
 		},
 		{
 			"mimeType":"image/jpeg",
-			"name":"Poliigon_MetalSteelBrushed_7174_BaseColor",
-			"uri":"Poliigon_MetalSteelBrushed_7174_BaseColor.jpg"
+			"name":"metal_plate2",
+			"uri":"metal_plate2.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
@@ -9356,6 +9356,11 @@
 			"mimeType":"image/png",
 			"name":"Poliigon_MetalSteelBrushed_7174_Normal",
 			"uri":"Poliigon_MetalSteelBrushed_7174_Normal.png"
+		},
+		{
+			"mimeType":"image/jpeg",
+			"name":"Poliigon_MetalSteelBrushed_7174_BaseColor",
+			"uri":"Poliigon_MetalSteelBrushed_7174_BaseColor.jpg"
 		},
 		{
 			"mimeType":"image/jpeg",
